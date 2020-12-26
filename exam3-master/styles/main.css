@@ -1,0 +1,1774 @@
+/* line 1, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* line 8, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+body {
+  font-family: 'Proxima NovA Soft';
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../icons/Homepage2.png");
+}
+
+/* line 33, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* line 38, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top {
+  border-top: 4px solid #7569DE;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+/* line 44, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 49, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .left {
+  display: flex;
+  align-items: center;
+}
+
+/* line 53, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .left a {
+  padding-right: 23px;
+}
+
+/* line 57, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .left span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 110.84%;
+  color: #5D748A;
+}
+
+/* line 67, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .betwen ul {
+  display: flex;
+  align-items: center;
+}
+
+/* line 72, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .betwen ul li a {
+  padding: 32px 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #5D748A;
+}
+
+/* line 85, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .right ul {
+  display: flex;
+}
+
+/* line 89, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .right ul li .right1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D748A;
+  padding-right: 20px;
+  position: relative;
+}
+
+/* line 98, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .right ul li .right1::before {
+  position: absolute;
+  margin: auto;
+  content: '';
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: -20px;
+  top: 1px;
+  width: 15px;
+  height: 16px;
+  background-image: url("../icons/notif-head.png");
+}
+
+/* line 108, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .right ul li .right2 {
+  padding: 8px 16px 8px 46px;
+  border-radius: 24px;
+  border: 1px solid #FEA244;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #5D748A;
+  position: relative;
+}
+
+/* line 119, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_top__inner .right ul li .right2::before {
+  content: '';
+  position: absolute;
+  background-image: url("../icons/admin-head.png");
+  width: 20px;
+  height: 20px;
+  left: 12px;
+}
+
+/* line 134, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner {
+  display: flex;
+}
+
+/* line 136, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner .header-kota {
+  display: none;
+}
+
+/* line 141, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner .left h1 {
+  padding-top: 293px;
+  padding-left: 100px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 125.34%;
+  color: #5D748A;
+}
+
+/* line 150, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner .left .btns {
+  padding-left: 100px;
+  padding-top: 64px;
+  padding-bottom: 277px;
+}
+
+/* line 154, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner .left .btns .first {
+  padding: 13px 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: linear-gradient(166.82deg, #FEA244 -0.4%, #FD9147 61.84%);
+  box-shadow: 0px 4px 22px rgba(253, 145, 71, 0.4);
+  border-radius: 50px;
+}
+
+/* line 165, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner .left .btns .second {
+  padding: 13px 47px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #4A4952;
+  border-radius: 50px;
+  border: 1px solid #FEA244;
+}
+
+/* line 177, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .header_bottom__inner .right {
+  background-image: url("../images/kotta-rasm.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 550px;
+  margin-top: 100px;
+}
+
+/* line 189, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 164px;
+}
+
+/* line 193, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FD9147;
+  display: block;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* line 202, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot1:hover {
+  width: 140px;
+  border-radius: 6px;
+}
+
+/* line 207, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FD9147;
+  display: block;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* line 216, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot2:hover {
+  width: 140px;
+  border-radius: 6px;
+}
+
+/* line 221, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot3 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FD9147;
+  display: block;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* line 230, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot3:hover {
+  width: 140px;
+  border-radius: 6px;
+}
+
+/* line 235, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot4 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FD9147;
+  display: block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* line 243, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.header .circle .dot4:hover {
+  width: 140px;
+  border-radius: 6px;
+}
+
+/* line 252, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionOne {
+  background-image: url("../images/sectinoneback.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5D748A;
+  padding: 40px 0 43px 111px;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin-bottom: 64px;
+}
+
+/* line 262, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionOne h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 162.5%;
+  letter-spacing: 0.12px;
+  color: #FFFFFF;
+  padding-bottom: 8px;
+}
+
+/* line 271, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionOne p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 162.5%;
+  letter-spacing: 0.12px;
+  color: #FFFFFF;
+  padding-bottom: 36px;
+}
+
+/* line 280, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionOne a {
+  display: inline-block;
+  padding: 13px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: linear-gradient(166.82deg, #FEA244 -0.4%, #FD9147 61.84%);
+  box-shadow: 0px 4px 22px rgba(253, 145, 71, 0.4);
+  border-radius: 50px;
+}
+
+/* line 293, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo {
+  padding-bottom: 260px;
+}
+
+/* line 295, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-betwen;
+}
+
+/* line 299, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item {
+  border-radius: 16px;
+  position: relative;
+  width: 304px;
+  margin-bottom: 35px;
+  height: 206px;
+}
+
+/* line 300, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item.margin {
+  margin-right: 32px;
+}
+
+/* line 303, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 318, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item:before {
+  position: absolute;
+  margin: auto;
+  content: '';
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(0deg, #383C45 0%, rgba(56, 60, 69, 0.3) 100%);
+  width: 304px;
+  height: 216px;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 16px;
+}
+
+/* line 329, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item:hover:before {
+  background: #558EF7;
+  opacity: 0.7;
+}
+
+/* line 333, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item span {
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/* line 342, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item span.data {
+  top: 20px;
+  left: 20px;
+}
+
+/* line 346, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item span.sport {
+  left: 241px;
+  top: 20px;
+}
+
+/* line 351, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item p {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.12px;
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+
+/* line 364, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item_alone h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125.34%;
+  color: #558EF7;
+  padding-bottom: 18px;
+}
+
+/* line 372, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item_alone p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125.34%;
+  color: #5D748A;
+  padding-bottom: 26px;
+}
+
+/* line 380, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item_alone a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FEA244;
+  position: relative;
+}
+
+/* line 387, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item_alone a:before {
+  position: absolute;
+  margin: auto;
+  content: '';
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  right: -15px;
+  width: 12px;
+  height: 10px;
+  background-image: url("../icons/sariq arow bef.png");
+}
+
+/* line 398, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez {
+  position: relative;
+  width: 498px;
+  height: 364px;
+}
+
+/* line 399, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez:before {
+  position: absolute;
+  margin: auto;
+  content: '';
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(0deg, #383C45 0%, rgba(56, 60, 69, 0.3) 100%);
+  width: 498px;
+  height: 364px;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 16px;
+}
+
+/* line 410, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez:hover:before {
+  background: #558EF7;
+  opacity: 0.7;
+}
+
+/* line 414, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez.margin {
+  margin-right: 32px;
+}
+
+/* line 420, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+/* line 429, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez img:nth-child(2) {
+  width: 498px;
+  height: 364px;
+  position: absolute;
+  z-index: -1;
+}
+
+/* line 436, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez span {
+  position: absolute;
+  color: red;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+/* line 444, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez span.data {
+  top: 32px;
+  left: 32px;
+}
+
+/* line 448, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez span.sport {
+  top: 32px;
+  right: 32px;
+}
+
+/* line 454, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionTwo .top .item-prez p {
+  bottom: 30px;
+  left: 32px;
+  position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.12px;
+  color: #FFFFFF;
+}
+
+/* line 469, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionThird .gallery_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 473, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionThird .gallery_list .gallery_item {
+  max-width: 416px;
+  position: relative;
+}
+
+/* line 476, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionThird .gallery_list .gallery_item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 480, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionThird .gallery_list .gallery_item.swiper-slide-prev {
+  border-radius: 16px;
+  transform: rotate(0deg) !important, translate3d(0) !important;
+}
+
+/* line 485, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionThird .gallery_list .gallery_item.swiper-slide-active {
+  border-radius: 16px;
+  transform: rotate(0deg) !important, translate3d(0) !important;
+}
+
+/* line 489, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionThird .gallery_list .gallery_item p {
+  position: absolute;
+  top: 65px;
+  left: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 125.34%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 503, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner .alone-h3 {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125.34%;
+  color: #558EF7;
+}
+
+/* line 512, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour {
+  padding-top: 204px;
+  padding-bottom: 46px;
+}
+
+/* line 515, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .top {
+  padding-bottom: 56px;
+}
+
+/* line 517, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .top h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125.34%;
+  text-align: center;
+  color: #558EF7;
+  padding-bottom: 16px;
+}
+
+/* line 526, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .top p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125.34%;
+  text-align: center;
+  color: #5D748A;
+}
+
+/* line 536, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .bottom .swiper-container-second {
+  overflow: hidden !important;
+}
+
+/* line 539, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .bottom .swiper-container-second .swiper-wrapper .swiper-slide {
+  max-width: 416px !important;
+  padding: 24px !important;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+/* line 544, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .bottom .swiper-container-second .swiper-wrapper .swiper-slide h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: #5D748A;
+  padding-bottom: 24px;
+}
+
+/* line 553, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFour .bottom .swiper-container-second .swiper-wrapper .swiper-slide p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130.3%;
+  color: #5D748A;
+  opacity: 0.5;
+}
+
+/* line 566, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive {
+  padding-bottom: 139px;
+  display: flex;
+  padding: 0 40px;
+  align-items: center;
+}
+
+/* line 571, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .left {
+  margin-right: 112px;
+  width: 40%;
+  max-width: 611px;
+  height: 551px;
+  background-image: url("../images/aaaaaaaaaaaaaa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 581, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right {
+  width: 60%;
+}
+
+/* line 583, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .top {
+  display: flex;
+  padding-bottom: 48px;
+  align-items: center;
+}
+
+/* line 587, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .top h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125.34%;
+  color: #558EF7;
+  padding-right: 107px;
+}
+
+/* line 595, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .top a {
+  padding: 15px 49px 15px 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #4A4952;
+  background: #FFFFFF;
+  border-radius: 50px;
+  position: relative;
+}
+
+/* line 605, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .top a:before {
+  background-image: url("../icons/arrow kok.png");
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  top: 0;
+  background-position: center;
+  right: 5px;
+  bottom: 0;
+  margin: auto;
+  padding: 10px 7px 8px 7px;
+  box-shadow: 0px 5px 10px rgba(106, 123, 145, 0.24);
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+/* line 624, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 400px;
+}
+
+/* line 629, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.34%;
+  color: #5D748A;
+  display: block;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+/* line 638, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:hover {
+  color: #558EF7;
+}
+
+/* line 642, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(1) {
+  padding-left: 80px;
+  padding-right: 32px;
+}
+
+/* line 645, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(1):before {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-color: red;
+  content: '';
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../icons/top.png");
+  width: 30px;
+  height: 30px;
+}
+
+/* line 664, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(2) {
+  padding-left: 80px;
+}
+
+/* line 666, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(2):before {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-color: red;
+  content: '';
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../icons/tennis.png");
+  width: 30px;
+  height: 30px;
+}
+
+/* line 686, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(3) {
+  padding-left: 80px;
+  padding-right: 49px;
+}
+
+/* line 689, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(3):before {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-color: red;
+  content: '';
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../icons/basen.png");
+  width: 30px;
+  height: 30px;
+}
+
+/* line 708, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(4) {
+  padding-left: 80px;
+}
+
+/* line 710, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(4):before {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-color: red;
+  content: '';
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../icons/ypon.png");
+  width: 30px;
+  height: 30px;
+  background-color: #558EF7;
+}
+
+/* line 731, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(5) {
+  padding-left: 80px;
+  padding-right: 32px;
+}
+
+/* line 734, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(5):before {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-color: red;
+  content: '';
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../icons/run.png");
+  width: 30px;
+  height: 30px;
+}
+
+/* line 753, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(6) {
+  padding-left: 80px;
+}
+
+/* line 755, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .betwen a:nth-child(6):before {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-color: red;
+  content: '';
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../icons/arrowuzunbef.png");
+  width: 30px;
+  height: 30px;
+}
+
+/* line 775, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .bottom {
+  align-items: center;
+  display: flex;
+  padding: 8px 36px 8px 20px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+/* line 781, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .bottom h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 125.34%;
+  color: #558EF7;
+  padding-right: 287px;
+  position: relative;
+}
+
+/* line 789, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .bottom h1:before {
+  content: 'ta';
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130.3%;
+  color: #5D748A;
+  opacity: 0.5;
+  left: 62px;
+  top: 10px;
+}
+
+/* line 801, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .bottom h1:after {
+  content: 'Suzish havzalari mavjud';
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.34%;
+  color: #5D748A;
+  bottom: 10px;
+  left: 62px;
+}
+
+/* line 813, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionFive .right .bottom a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FEA244;
+  position: relative;
+}
+
+/* line 823, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix {
+  display: flex;
+  margin-top: 124px;
+  align-items: center;
+}
+
+/* line 827, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .left {
+  background-image: url("../images/baccccc4.png");
+  width: 430px;
+  height: 417px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: cover;
+  padding-right: 100px;
+}
+
+/* line 836, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right {
+  padding: 46px 32px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+/* line 840, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .top {
+  display: flex;
+  align-items: center;
+}
+
+/* line 843, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .top h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #558EF7;
+  padding-right: 136px;
+}
+
+/* line 851, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .top a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FEA244;
+}
+
+/* line 859, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper {
+  margin-top: 28px;
+  height: 76px;
+  background-image: url("../images/bacccc3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 866, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper .anker1 {
+  position: relative;
+}
+
+/* line 868, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper .anker1 h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #16233C;
+  position: absolute;
+  width: 187px;
+  top: 8px;
+  left: 85px;
+}
+
+/* line 879, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper .anker1 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #467FFF;
+  top: 31px;
+  left: 85px;
+  position: relative;
+}
+
+/* line 889, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper .anker1 h5 {
+  position: absolute;
+  top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  left: 340px;
+}
+
+/* line 898, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper .anker1 h6 {
+  position: absolute;
+  top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  left: 440px;
+}
+
+/* line 910, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper2 {
+  margin-top: 28px;
+  height: 76px;
+  background-image: url("../images/bacccc2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 917, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper2 .anker1 {
+  position: relative;
+}
+
+/* line 919, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper2 .anker1 h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #16233C;
+  position: absolute;
+  top: 7px;
+  left: 85px;
+  width: 177px;
+}
+
+/* line 930, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper2 .anker1 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #467FFF;
+  top: 31px;
+  left: 85px;
+  position: relative;
+}
+
+/* line 940, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper2 .anker1 h5 {
+  position: absolute;
+  top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  left: 340px;
+}
+
+/* line 949, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper2 .anker1 h6 {
+  position: absolute;
+  top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  left: 440px;
+}
+
+/* line 960, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper3 {
+  margin-top: 28px;
+  height: 76px;
+  background-image: url("../images/bacccc1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 967, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper3 .anker1 {
+  position: relative;
+}
+
+/* line 969, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper3 .anker1 h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #16233C;
+  position: relative;
+  top: 10px;
+  left: 85px;
+}
+
+/* line 979, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper3 .anker1 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #467FFF;
+  top: 5px;
+  left: 85px;
+  position: relative;
+}
+
+/* line 989, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper3 .anker1 h5 {
+  position: absolute;
+  top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  left: 340px;
+}
+
+/* line 998, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .main_inner__SectionSix .right .wrapper3 .anker1 h6 {
+  position: absolute;
+  top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  left: 440px;
+}
+
+/* line 1012, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectionseven {
+  margin-top: 164px;
+  position: relative;
+}
+
+/* line 1015, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectionseven h2 {
+  padding-bottom: 24px;
+  position: absolute;
+  top: -64px;
+  left: 39%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125.34%;
+  text-align: center;
+  color: #558EF7;
+}
+
+/* line 1027, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectionseven a {
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FD9147;
+  right: 96px;
+  top: -45px;
+}
+
+/* line 1037, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectionseven .inner {
+  padding: 32px 0;
+  width: 100%;
+  max-width: 1440px;
+  height: 504px;
+  background-image: url("../images/sprtchilar.png");
+  background-position: center;
+  background-color: #F0F3F7;
+  background-repeat: no-repeat;
+}
+
+/* line 1048, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  margin-top: 100px;
+  padding: 64px 130px 64px 64px;
+  background-image: url("../images/sssssssssssssss.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 82px;
+}
+
+/* line 1061, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .left h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 162.5%;
+  letter-spacing: 0.12px;
+  color: #FFFFFF;
+}
+
+/* line 1070, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .right {
+  display: flex;
+  position: relative;
+}
+
+/* line 1073, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .right a {
+  margin-right: 24px;
+  border-radius: 29px;
+  display: inline-block;
+}
+
+/* line 1078, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .right a:nth-child(1) {
+  background-color: #fff;
+  padding: 14px 12px 14.5px 12px;
+}
+
+/* line 1083, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .right a:nth-child(2) {
+  background-color: #fff;
+  padding: 12px 18px;
+}
+
+/* line 1088, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .right a:nth-child(3) {
+  background-color: #fff;
+  padding: 14px 12px;
+}
+
+/* line 1093, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.main .sectioneight .right a:nth-child(4) {
+  position: absolute;
+  top: -8px;
+  left: -92px;
+}
+
+/* line 1101, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer {
+  margin-top: 82px;
+  padding: 56px 0;
+}
+
+/* line 1105, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top {
+  padding-bottom: 52px;
+  display: flex;
+}
+
+/* line 1108, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .left {
+  margin-right: 144px;
+}
+
+/* line 1110, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .left h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 110.84%;
+  color: #5D748A;
+  padding-bottom: 52px;
+  padding-left: 90px;
+  position: relative;
+}
+
+/* line 1119, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .left h2:before {
+  position: absolute;
+  content: '';
+  background-image: url("../images/lllllllllllllll.png");
+  width: 70px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: -54px;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+}
+
+/* line 1134, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .left p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #5D748A;
+  opacity: 0.7;
+}
+
+/* line 1143, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .right {
+  display: flex;
+}
+
+/* line 1145, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .right .first {
+  margin-right: 156px;
+}
+
+/* line 1148, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .right .second {
+  margin-right: 101px;
+}
+
+/* line 1151, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .right ul {
+  display: block;
+}
+
+/* line 1153, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .right ul h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #5D748A;
+  padding-bottom: 20px;
+}
+
+/* line 1162, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__top .right ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #5D748A;
+  opacity: 0.7;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+/* line 1176, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 1180, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__bottom h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #5D748A;
+  opacity: 0.7;
+}
+
+/* line 1188, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__bottom h5 {
+  padding: 24px 149px 24px 32px;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 147.5%;
+  color: #5D748A;
+  border-radius: 16px;
+  position: relative;
+}
+
+/* line 1198, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__bottom h5:before {
+  content: '';
+  position: absolute;
+  background-image: url("../images/uic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 105px;
+  height: 12px;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin: auto;
+}
+
+/* line 1213, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+.footer .footer_inner__bottom .foter-end h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  color: #5D748A;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 1227, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  body {
+    background: none;
+    background-image: url("../images/tablet (1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1234, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .container {
+    width: 100%;
+    max-width: 976px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  /* line 1244, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .header .header_top__inner .betwen {
+    display: none;
+  }
+  /* line 1252, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .header .header_bottom__inner .left h1 {
+    font-size: 26px;
+  }
+  /* line 1261, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionOne {
+    background-image: url("../images/main1.png");
+  }
+  /* line 1266, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item {
+    width: 222px;
+    height: 200px;
+  }
+  /* line 1269, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item.margin {
+    margin-right: 30px;
+  }
+  /* line 1272, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item img:nth-child(2) {
+    width: 222px;
+    height: 200px;
+  }
+  /* line 1276, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item:before {
+    width: 222px;
+    height: 210px;
+  }
+  /* line 1281, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item span.sport {
+    left: 152px;
+  }
+  /* line 1285, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item p {
+    font-size: 16px;
+  }
+  /* line 1289, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item-prez {
+    max-width: 433px;
+    max-height: 300px;
+  }
+  /* line 1292, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item-prez img:nth-child(2) {
+    max-width: 433px;
+    max-height: 330px;
+  }
+  /* line 1296, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionTwo .top .item-prez:before {
+    width: 433px;
+    height: 330px;
+    top: 28px;
+  }
+  /* line 1305, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionFive .left {
+    margin-right: 32px;
+    width: 473px;
+    height: 426px;
+    background-size: contain;
+  }
+  /* line 1313, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionFive .right .top h3 {
+    font-size: 25px;
+  }
+  /* line 1318, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionFive .right .bottom h1 {
+    padding-right: 246px;
+  }
+  /* line 1326, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .left {
+    width: 389px;
+    height: 372px;
+  }
+  /* line 1330, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right {
+    width: 500px;
+    padding: 40px 30px;
+  }
+  /* line 1334, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .top h3 {
+    font-size: 24px;
+    padding-right: 68px;
+  }
+  /* line 1339, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper {
+    height: 84px;
+    background: none;
+    background-image: url("../images/aaa.png");
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: cover;
+  }
+  /* line 1347, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper .anker1 h4 {
+    font-size: 16px;
+    left: 64px;
+    top: 10px;
+  }
+  /* line 1352, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper .anker1 span {
+    font-size: 14px;
+    left: 64px;
+    top: 33px;
+  }
+  /* line 1357, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper .anker1 h5 {
+    font-size: 14px;
+    left: 280px;
+    top: 10px;
+  }
+  /* line 1362, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper .anker1 h6 {
+    font-size: 14px;
+    left: 280px;
+    top: 36px;
+  }
+  /* line 1370, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper2 {
+    height: 84px;
+    background: none;
+    background-image: url("../images/aaaa.png");
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: contain;
+    position: relative;
+  }
+  /* line 1378, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper2:before {
+    top: 0;
+    bottom: 0;
+    right: 22px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url("../images/bolabef1.svg");
+    content: '';
+    width: 56px;
+    height: 75px;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+  }
+  /* line 1393, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper2 .anker1 h4 {
+    font-size: 16px;
+    left: 64px;
+    top: 10px;
+  }
+  /* line 1398, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper2 .anker1 span {
+    font-size: 14px;
+    left: 64px;
+    top: 33px;
+  }
+  /* line 1403, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper2 .anker1 h5 {
+    font-size: 14px;
+    left: 280px;
+    top: 10px;
+  }
+  /* line 1408, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper2 .anker1 h6 {
+    font-size: 14px;
+    left: 280px;
+    top: 36px;
+  }
+  /* line 1416, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper3 {
+    height: 84px;
+    background: none;
+    background-image: url("../images/aaaaa.png");
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: contain;
+    position: relative;
+  }
+  /* line 1424, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper3:before {
+    top: 0;
+    bottom: 0;
+    right: 22px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url("../images/bolabef2.svg");
+    content: '';
+    width: 56px;
+    height: 75px;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+  }
+  /* line 1439, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper3 .anker1 h4 {
+    font-size: 16px;
+    left: 64px;
+    top: 10px;
+  }
+  /* line 1444, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper3 .anker1 span {
+    font-size: 14px;
+    left: 64px;
+    top: 13px;
+  }
+  /* line 1449, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper3 .anker1 h5 {
+    font-size: 14px;
+    left: 280px;
+    top: 10px;
+  }
+  /* line 1454, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .main_inner__SectionSix .right .wrapper3 .anker1 h6 {
+    font-size: 14px;
+    left: 280px;
+    top: 36px;
+  }
+  /* line 1463, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .sectioneight {
+    padding: 76px 84px;
+  }
+  /* line 1466, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .main .sectioneight .left h2 {
+    font-size: 24px;
+  }
+  /* line 1472, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .footer {
+    padding: 42px 0;
+  }
+  /* line 1476, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .footer .footer_inner__top .left {
+    margin-right: 32px;
+  }
+  /* line 1478, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .footer .footer_inner__top .left h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* line 1488, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  body {
+    background: none;
+    background-color: #F4F7FB;
+    background-image: url("../icons/sariq-yarim.png");
+    background-size: 124px 248px contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  /* line 1496, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .container {
+    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  /* line 1504, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .header .header_bottom__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 1507, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .header .header_bottom__inner .header-kota {
+    display: block;
+  }
+  /* line 1512, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .header .header_bottom__inner .left h1 {
+    font-size: 26px;
+    text-align: left;
+  }
+  /* line 1517, ../../../../Downloads/exam3-master/exam3-master/styles/main.scss */
+  .header .header_bottom__inner .right {
+    display: none;
+  }
+}
